@@ -6,15 +6,15 @@
 <img src="https://cdn.discordapp.com/attachments/819226289789075497/1029415491858604063/git_and_github_logo.png" width="273" height="75" /> 
 
 <h2> 📚 Ementa</h2>
-#### 🔸1--> Iniciar Versionamento   
-#### 🔸2--> Comandos Basicos        
-#### 🔸3--> Git Branch              
-#### 🔸4--> Clonar Repositorios     
-#### 🔸5--> Git Stash               
-#### 🔸6--> Git Log                 
-#### 🔸7--> Git Reset                
-#### 🔸8--> Git Revert              
-#### 🔸9--> Chaves                  
+####  🔸1--> Iniciar Versionamento   
+####  🔸2--> Comandos Basicos        
+####  🔸3--> Git Branch              
+####  🔸4--> Clonar Repositorios     
+####  🔸5--> Git Stash               
+####  🔸6--> Git Log                 
+####  🔸7--> Git Reset                
+####  🔸8--> Git Revert              
+####  🔸9--> Chaves                  
 
 # Iniciar Versionamento
 ```
