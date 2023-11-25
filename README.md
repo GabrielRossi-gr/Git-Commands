@@ -3,8 +3,7 @@
  ⭐️  Star o projeto  
  🐛 Encontrar e relatar issues
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="200" height="200" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="200" height="200" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="150" height="150" /> 
 
 
 
