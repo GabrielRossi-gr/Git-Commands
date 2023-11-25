@@ -5,21 +5,6 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="150" height="150" /> 
 
-
-<!--
-  ####  🔸1--> Iniciar Versionamento   
-     ####  🔸2--> Comandos Basicos        
-     ####  🔸3--> Git Branch              
-     ####  🔸4--> Clonar Repositorios     
-     ####  🔸5--> Git Stash               
-     ####  🔸6--> Git Log                 
-     ####  🔸7--> Git Reset                
-     ####  🔸8--> Git Revert              
-     ####  🔸9--> Chaves  
-
-    -->
-                
-
 # Iniciar Versionamento
 ```
 echo "# NOME_DO_REPOSITORIO" >> README.md
@@ -104,4 +89,16 @@ git push -u origin main
 ```
     ssh-add <caminhoDaChavePRIVADA>            //colocar o caminho do diretorio da pasta
 ```
+  
+  ####  🔸1--> Iniciar Versionamento   
+     ####  🔸2--> Comandos Basicos        
+     ####  🔸3--> Git Branch              
+     ####  🔸4--> Clonar Repositorios     
+     ####  🔸5--> Git Stash               
+     ####  🔸6--> Git Log                 
+     ####  🔸7--> Git Reset                
+     ####  🔸8--> Git Revert              
+     ####  🔸9--> Chaves  
+
+    
 -->
