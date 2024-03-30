@@ -28,10 +28,12 @@ git push -u origin main
     git status                                 //ver status
     git push origin main                       //enviar commit para branch 'main' no GitHub
     git pull                                   //puxar arquivos do GitHub para sua maquina
+    git fetch                                  //buscar todas as alterações da branch remota para a local
 ```
 # Git Branch:
 ```
-    git branch                                   //ver branches 
+    git branch                                   //ver branches
+    git branch -a                                //ver branches remotas e locais
     git checkout -b <nomeDaBranch>               //cria uma branch
     git checkout <nomeDaBranch>                  //navega para a branch 'nomeDaBranch'
     git branch -d <nomeDaBranch>                 //deletar branch 'nomeDaBranch'
