@@ -96,34 +96,34 @@ git push -u origin main
 -->
 
 
-# Gerar chave
+## Gerar chave
 ```
 ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"
 ```
 
-# Ativar gerenciador de chaves
+## Ativar gerenciador de chaves
 ```
 eval "$(ssh-agent -s)"
 ```
 
-# Adicionar a chave
+## Adicionar a chave
 ```
 ssh-add ~/.ssh/id_rsa
 ```
 
-# Copiar chave 
+## Copiar chave 
 ```
 pbcopy < ~/.ssh/id_rsa.pub            //mac
 cat ~/.ssh/id_rsa.pub                 //outro
 xclip -sel clip < ~/.ssh/id_rsa.pub   //linux
 ```
 
-# Name config
+## Name config
 ```
 git config --global user.name "Seu Nome"
 ```
 
-# Email config
+## Email config
 ```
 git config --global user.email "seu_email@example.com"
 ```
