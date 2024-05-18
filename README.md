@@ -91,4 +91,29 @@ git push -u origin main
 ```
     ssh-add <caminhoDaChavePRIVADA>            //colocar o caminho do diretorio da pasta
 ```   
+
+-----------------------
+
+```
+gerar chave
+ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"
+
+ativar gerenciador de chaves
+eval "$(ssh-agent -s)"
+
+adicionar a chave
+ssh-add ~/.ssh/id_rsa
+
+copiar chave 
+mac ->  pbcopy < ~/.ssh/id_rsa.pub
+outro -> cat ~/.ssh/id_rsa.pub
+linux -> xclip -sel clip < ~/.ssh/id_rsa.pub
+
+name config
+git config --global user.name "Seu Nome"
+
+email config
+git config --global user.email "seu_email@example.com"
+
+```
 -->
