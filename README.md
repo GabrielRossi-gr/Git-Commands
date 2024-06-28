@@ -71,14 +71,14 @@ git push -u origin main
 
 # Chaves
 ```
-    //Artigo Com Todas As Informações Chave SSH
+    --Artigo Com Todas As Informações Chave SSH
     https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
 
     ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"    //Gerar chave
     eval "$(ssh-agent -s)"                                  //Ativar gerenciador de chaves
     ssh-add ~/.ssh/id_rsa                                   //Adicionar a chave
 
-    //Copiar chave 
+    --Copiar chave 
     pbcopy < ~/.ssh/id_rsa.pub                              //mac
     cat ~/.ssh/id_rsa.pub                                   //outro
     xclip -sel clip < ~/.ssh/id_rsa.pub                     //linux
@@ -87,6 +87,7 @@ git push -u origin main
     git config --global user.email "seu_email@example.com"  //Email config
 
 ```
+
 <!--
     ### Criar Chave ssh: Chave Publica:
     ssh-keygen -t ed25519 -c <"SeuGmailDoGithub@gmail.com"> 
