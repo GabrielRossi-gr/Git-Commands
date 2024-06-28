@@ -3,17 +3,17 @@
 
 # Iniciar Versionamento
 ```
-echo "# NOME_DO_REPOSITORIO" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/LINK_DO_REPOSITORIO.git
-git push -u origin main
-
-git remote add origin https://github.com/LINK_DO_REPOSITORIO.git
-git branch -M main                             
-git push -u origin main
+    echo "# NOME_DO_REPOSITORIO" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/LINK_DO_REPOSITORIO.git
+    git push -u origin main
+    
+    git remote add origin https://github.com/LINK_DO_REPOSITORIO.git
+    git branch -M main                             
+    git push -u origin main
 ```
 # Comandos Basicos:
 ```
