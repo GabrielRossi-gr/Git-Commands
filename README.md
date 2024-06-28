@@ -45,7 +45,6 @@ git push -u origin main
 # Clonar Repositorios:
 ```
     git clone <git@github.LinkDoRepositorio.git>
-    
 ```
 # Git Stash:
 ```
