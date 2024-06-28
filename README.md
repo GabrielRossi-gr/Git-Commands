@@ -70,9 +70,22 @@ git push -u origin main
 ```
 
 # Chaves
-### Artigo Com Todas As Informações Chave SSH:
 ```
+    //Artigo Com Todas As Informações Chave SSH
     https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+
+    ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"    //Gerar chave
+    eval "$(ssh-agent -s)"                                  //Ativar gerenciador de chaves
+    ssh-add ~/.ssh/id_rsa                                   //Adicionar a chave
+
+    //Copiar chave 
+    pbcopy < ~/.ssh/id_rsa.pub                              //mac
+    cat ~/.ssh/id_rsa.pub                                   //outro
+    xclip -sel clip < ~/.ssh/id_rsa.pub                     //linux
+
+    git config --global user.name "Seu Nome"                //Name config
+    git config --global user.email "seu_email@example.com"  //Email config
+
 ```
 <!--
     ### Criar Chave ssh: Chave Publica:
@@ -80,59 +93,5 @@ git push -u origin main
     //a chave vai ser o 'arquivo.pub' 
     //chaveexemplo: feuawucnuaenvee5g58455g45gmail@gmail.com
 -->
-<!-- 
-### Inicializar ssh:
-```
-    eval $(ssh-agent -s)
-```
-### Adicionar Chave Privada:
-```
-    ssh-add <caminhoDaChavePRIVADA>            //colocar o caminho do diretorio da pasta
-```   
-
------------------------
--->
-
-
-### Gerar chave
-```
-   ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"
-```
-
-### Ativar gerenciador de chaves
-```
-   eval "$(ssh-agent -s)"
-```
-
-### Adicionar a chave
-```
-   ssh-add ~/.ssh/id_rsa
-```
-
-### Copiar chave 
-```
-   pbcopy < ~/.ssh/id_rsa.pub            //mac
-   cat ~/.ssh/id_rsa.pub                 //outro
-   xclip -sel clip < ~/.ssh/id_rsa.pub   //linux
-```
-
-### Name config
-```
-   git config --global user.name "Seu Nome"
-```
-
-### Email config
-```
-   git config --global user.email "seu_email@example.com"
-```
-
-
-
-
-
-
-
-
-
 
 
