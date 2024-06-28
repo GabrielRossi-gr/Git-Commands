@@ -29,6 +29,7 @@ git push -u origin main
     git push origin main                       //enviar commit para branch 'main' no GitHub
     git pull                                   //puxar arquivos do GitHub para sua maquina
     git fetch                                  //buscar todas as alterações da branch remota para a local
+    git checkout -- .                          //remover alterações não adicionadas e não commitadas
 ```
 # Git Branch:
 ```
@@ -42,6 +43,7 @@ git push -u origin main
     git branch -m <novoNome>                     //mudar o nome quando vc esta na branch
     git merge <nomeDaBranch>                     //juntar as branches  
     git branch -M "main"                         //mudar branch para main
+    git push origin nova-branch                  //subir a nova branch para o GitHub
 ```
 # Clonar Repositorios:
 ```
