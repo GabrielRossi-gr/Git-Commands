@@ -18,8 +18,8 @@ git push -u origin main
 # Comandos Basicos:
 ```
     git add .                                  //adiciona todos os arquivos
-        or
     git add <nomeDoArquivo>                    //adiciona arquivos especificos
+
     git commit -m <"nomeDoCommit">             //commitar
     git status                                 //ver status
     git push origin main                       //enviar commit para branch 'main' no GitHub
