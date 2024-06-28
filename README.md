@@ -34,9 +34,10 @@ git push -u origin main
     git checkout -b <nomeDaBranch>               //cria uma branch
     git checkout <nomeDaBranch>                  //navega para a branch 'nomeDaBranch'
     git branch -d <nomeDaBranch>                 //deletar branch 'nomeDaBranch'
+
     git branch -m <nomeAtual> <novoNome>         //mudar nome da branch
-                 or
     git branch -m <novoNome>                     //mudar o nome quando vc esta na branch
+
     git merge <nomeDaBranch>                     //juntar as branches  
     git branch -M "main"                         //mudar branch para main
     git push origin <nomeDaBranch>               //subir a nova branch para o GitHub
