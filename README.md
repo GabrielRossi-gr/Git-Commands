@@ -43,7 +43,7 @@ git push -u origin main
     git branch -m <novoNome>                     //mudar o nome quando vc esta na branch
     git merge <nomeDaBranch>                     //juntar as branches  
     git branch -M "main"                         //mudar branch para main
-    git push origin nova-branch                  //subir a nova branch para o GitHub
+    git push origin <nomeDaBranch>               //subir a nova branch para o GitHub
 ```
 # Clonar Repositorios:
 ```
