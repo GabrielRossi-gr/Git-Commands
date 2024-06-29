@@ -15,6 +15,7 @@
     git branch -M main                             
     git push -u origin main
 ```
+
 # Comandos Basicos:
 ```
     git add .                                  //adiciona todos os arquivos
