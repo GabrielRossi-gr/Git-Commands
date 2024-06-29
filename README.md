@@ -22,7 +22,7 @@
 
     git commit -m <"nomeDoCommit">             //commitar
     git status                                 //ver status
-    git push origin main                       //enviar commit para branch 'main' no GitHub
+    git push origin <nomeDaBranch>             //enviar branch ou alterações para o GitHub
     git pull                                   //puxar arquivos do GitHub para sua maquina
     git fetch                                  //buscar todas as alterações da branch remota para a local
     git checkout -- .                          //remover alterações não adicionadas e não commitadas
