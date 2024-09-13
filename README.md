@@ -35,6 +35,8 @@
     git checkout -b <nomeDaBranch>               //cria uma branch
     git checkout <nomeDaBranch>                  //navega para a branch 'nomeDaBranch'
     git branch -d <nomeDaBranch>                 //deletar branch 'nomeDaBranch'
+    git switch <nomeDaBranch>                    //entra na branch
+    git switch -c <nomeDaBranch>                 //cria a branch e entra nela 
 
     git branch -m <nomeAtual> <novoNome>         //mudar nome da branch
     git branch -m <novoNome>                     //mudar o nome quando vc esta na branch
