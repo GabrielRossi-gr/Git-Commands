@@ -62,6 +62,15 @@
     git log --oneline                            //historico em uma linha 
     git log --graph                              //historico em formato de grafico    
 ```
+
+# Deletar alterações:
+```
+    git restore .                              //remover alterações nao adicionadas
+    git clean -f                               //
+
+    git restore --staged .                     //remover alterações adicionadas  
+```
+
 # Git Reset:
 ```
     git reset <HEART~1>                          //voltar para ultimo commit HEART~2 HEART~3 
