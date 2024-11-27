@@ -63,7 +63,7 @@
     git log --graph                              //historico em formato de grafico    
 ```
 
-# Deletar alterações:
+# Deletar Alterações:
 ```
     git restore .                              //remover alterações nao adicionadas
     git clean -f                               //
