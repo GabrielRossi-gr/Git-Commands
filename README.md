@@ -68,7 +68,8 @@
     git restore .                              //remover alterações nao adicionadas
     git clean -f                               //
 
-    git restore --staged .                     //remover alterações adicionadas  
+    git restore --staged .                     //remover alterações adicionadas
+    git reset --soft HEAD~1                    //remover commit sem alterar o trabalho feito
 ```
 
 # Git Reset:
