@@ -63,7 +63,7 @@
     git log --graph                              //historico em formato de grafico    
 ```
 
-# Deletar Alterações:
+# Deletar Alterações:  (CUIDADO)
 ```
     git restore .                              //remover alterações nao adicionadas
     git clean -f                               //
@@ -72,12 +72,12 @@
     git reset --soft HEAD~1                    //remover commit sem alterar o trabalho feito
 ```
 
-# Git Reset:
+# Git Reset:  (CUIDADO)
 ```
     git reset <HEART~1>                          //voltar para ultimo commit HEART~2 HEART~3 
     git reset <id do commit>                     //passar o id do commit como parametro
 ```
-# Git Revert:
+# Git Revert:  (CUIDADO)
 ```
     git revert <cha1>                            //voltar para o commit 
 ```
