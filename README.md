@@ -68,6 +68,8 @@
     git reset --soft HEAD~1                    //remover commit sem alterar o trabalho feito (não desfaz as modificações feitas nos arquivos do projeto)
 
 
+
+    //(CUIDADO)                                //(CUIDADO)
     git checkout -- .                          //remover alterações não adicionadas e não commitadas, (DESFAZ MODIFICAÇÕES FEITAS NO DIRETÓRIO e restaura os arquivos para o último commit.
     git restore .                              //remover alterações nao adicionadas, (DESFAZ MODIFICAÇÕES FEITAS NO DIRETÓRIO restaura para o estado em que estava no último commit) 
     git clean -f                               //remover arquivos não rastreados do diretório de trabalho.
