@@ -64,12 +64,14 @@
 
 # Deletar Alterações:  (CUIDADO)
 ```
-    git restore .                              //remover alterações nao adicionadas
-    git clean -f                               //
+    
 
-    git restore --staged .                     //remover alterações adicionadas
-    git reset --soft HEAD~1                    //remover commit sem alterar o trabalho feito
+    git restore --staged .                     //desfazer o efeito do comando "git add." (não desfaz as modificações feitas nos arquivos do projeto)
+    git reset --soft HEAD~1                    //remover commit sem alterar o trabalho feito (não desfaz as modificações feitas nos arquivos do projeto)
+
     git checkout -- .                          //remover alterações não adicionadas e não commitadas, desfaz modificações feitas no diretório e restaura os arquivos para o último commit.
+    git restore .                              //remover alterações nao adicionadas, restaura para o estado em que estava no último commit. 
+    git clean -f                               //remover arquivos não rastreados do diretório de trabalho.
 ```
 
 # Git Reset:  (CUIDADO)
