@@ -26,7 +26,6 @@
     git push origin <nomeDaBranch>             //enviar branch ou alterações para o GitHub
     git pull                                   //puxar arquivos do GitHub para sua maquina
     git fetch                                  //buscar todas as alterações da branch remota para a local
-    git checkout -- .                          //remover alterações não adicionadas e não commitadas
 ```
 # Git Branch:
 ```
@@ -70,6 +69,7 @@
 
     git restore --staged .                     //remover alterações adicionadas
     git reset --soft HEAD~1                    //remover commit sem alterar o trabalho feito
+    git checkout -- .                          //remover alterações não adicionadas e não commitadas, desfaz modificações feitas no diretório e restaura os arquivos para o último commit.
 ```
 
 # Git Reset:  (CUIDADO)
