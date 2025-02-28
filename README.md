@@ -4,6 +4,11 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="150" height="150" /> 
 </div>
 
+<div style="display: flex; gap: 20px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="150" height="150" /> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="150" height="150" /> 
+</div>
+
 # Iniciar Versionamento
 ```
     echo "# NOME_DO_REPOSITORIO" >> README.md
